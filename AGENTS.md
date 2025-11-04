@@ -8,7 +8,7 @@ This document is the single point of truth for this repository. It is a living d
 
 ## Team & Roles
 - List the main roles (e.g., Architecture, Development, Bugfixing, Design, Refactoring)
-- Link to persona instructions in `.github/instructions/personas/`
+- Define responsibilities for each role
 
 ## Guidelines & Standards
 - Reference the `/guidelines` folder and its subfolders for architecture, security, product vision, etc.
