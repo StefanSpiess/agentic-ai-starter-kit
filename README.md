@@ -9,9 +9,9 @@ The Agentic AI Starter Kit helps teams establish a **single source of truth** fo
 ### Key Features
 
 - **AGENTS.md Framework**: Living document that serves as the single point of truth for all contributors
-- **Persona System**: Pre-defined roles (Architecture, Development, Bugfixing, Design, Refactoring) for focused collaboration
+- **Persona System**: Conceptual roles (Architecture, Development, Bugfixing, Design, Refactoring) for focused collaboration
 - **Guidelines & Standards**: Organized templates for architecture, security, and product vision
-- **Agent OS Preview**: Structured approach to specs, product management, and coding standards
+- **Agent OS Preview**: Example structure for AI-assisted specs, product management, and coding standards
 - **Templates**: Ready-to-use templates for documentation and project organization
 
 ## Repository Structure
@@ -52,16 +52,17 @@ The Agentic AI Starter Kit helps teams establish a **single source of truth** fo
 
 2. **Customize AGENTS.md** for your project:
    - Fill in your repository's purpose and main components
-   - Define team roles and personas
+   - Define team roles and personas (conceptual roles, not files)
    - Link to relevant guidelines
+   - Use the template sections as a guide
 
 3. **Configure guidelines**:
    - Navigate to `guidelines/` subfolders
    - Copy template files and adapt them to your project
    - Document architectural decisions, security policies, and product vision
 
-4. **Set up Agent OS structure** (optional):
-   - Use `agent-os-preview/` as a reference
+4. **Set up AI-assisted development structure** (optional):
+   - Use `agent-os-preview/` as a reference for organizing specs and standards
    - Define your product mission and roadmap
    - Establish coding standards for your tech stack
 
@@ -76,13 +77,13 @@ The Agentic AI Starter Kit helps teams establish a **single source of truth** fo
 - **Start with AGENTS.md**: Review this file to understand the project's structure and conventions
 - **Follow Guidelines**: Reference the `/guidelines` folder for architecture, security, and product decisions
 - **Document Changes**: Update CHANGELOG.md and AGENTS.md as the project evolves
-- **Use Personas**: Adopt the appropriate persona when working on specific aspects (e.g., Architecture, Development)
+- **Use Personas**: Adopt the appropriate conceptual role when working on specific aspects (e.g., Architecture, Development)
 
 ### For AI Agents
 
 - **Read AGENTS.md First**: This is your primary source of truth for the repository
 - **Follow Established Patterns**: Adhere to the guidelines and standards defined in the repository
-- **Respect Personas**: Understand your assigned role and stay within its scope
+- **Respect Roles**: Understand your assigned role and stay within its scope
 - **Keep Context Clean**: Regular refactoring keeps AI quality high by reducing noise
 
 ## Contributing
@@ -113,21 +114,25 @@ This starter kit is built on these principles:
 
 ## Technology Stack
 
-The starter kit is framework-agnostic but includes examples for:
+This starter kit is **framework-agnostic** and works with any technology stack. The `agent-os-preview/` directory includes example references to common technologies:
 
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **Backend**: Node.js, Express, PostgreSQL
-- **AI/Automation**: GitHub Copilot, Agent OS
-- **CI/CD**: GitHub Actions
+- **Frontend**: React, TypeScript, Tailwind CSS (examples only)
+- **Backend**: Node.js, Express, PostgreSQL (examples only)
+- **AI/Automation**: GitHub Copilot, AI assistants
+- **CI/CD**: GitHub Actions (examples only)
 
-Adapt these to match your project's needs.
+Adapt the structure and examples to match your project's actual technology choices.
 
 ## Roadmap
 
-- **Q4 2025**: Integrate Agent OS 3-layer context system, launch spec-driven development workflow
-- **Q1 2026**: Expand AI agent capabilities, improve onboarding and documentation
+Future enhancements planned for this starter kit:
 
-See `agent-os-preview/product/roadmap.md` for more details.
+- Integrate advanced AI context management systems
+- Launch spec-driven development workflow templates
+- Expand AI agent collaboration patterns
+- Improve onboarding and documentation
+
+See `agent-os-preview/product/roadmap.md` for example roadmap structure.
 
 ## License
 
