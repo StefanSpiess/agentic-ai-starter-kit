@@ -2,7 +2,7 @@
 
 All notable updates to this Agent Starter Kit are tracked here. Entries use the format `YYYY-MM-DD` followed by a brief summary.
 
-## 2024-11-04
+## 2025-11-04
 
 - Fixed README.md clarity issues:
   - Clarified that personas are conceptual roles, not files
